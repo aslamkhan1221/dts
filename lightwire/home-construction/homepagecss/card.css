@@ -1,5 +1,6 @@
 #homelogo {
-  height: 350px;
+  height: 650px;
+  align-items: center;
 }
 /* Separate cards from hero */
 #section_z86kS {
@@ -154,4 +155,20 @@
 }
 html {
   scroll-behavior: smooth;
+}
+.navbar {
+  .navbar {
+    height: 90px; /* Increase navbar height */
+    display: flex;
+    align-items: center; /* Vertically center items */
+  }
+
+  .navbar .logo img {
+    height: 80px; /* Adjust logo height */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: contain;
+  }
+}
+.navbar-brand {
+  padding: 0px 155px;
 }
